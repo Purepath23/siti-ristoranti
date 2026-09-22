@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Osteria da Rosolo — Cucina Toscana nel Cuore di Lucca</title>
+<meta name="description" content="Osteria da Rosolo: autentica cucina toscana e lucchese in Corte Campana, nel centro storico di Lucca. Tordelli, pappardelle al cinghiale, tagliate e i sapori di sempre.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700;800&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🍷</text></svg>">
+</head>
+<body>
+
+<div class="demo-flag" id="demoFlag">
+  <span>Bozza di presentazione — non ancora online</span>
+  <button id="closeFlag" aria-label="Chiudi">&times;</button>
+</div>
+
+<header class="site-header" id="siteHeader">
+  <div class="container header-inner">
+    <a href="#home" class="logo">Osteria <span>da Rosolo</span></a>
+    <nav class="main-nav" id="mainNav">
+      <a href="#storia">La Storia</a>
+      <a href="#menu">Menù</a>
+      <a href="#galleria">Galleria</a>
+      <a href="#recensioni">Recensioni</a>
+      <a href="#dove-siamo">Dove Siamo</a>
+      <a href="#contatti" class="nav-cta">Contatti</a>
+    </nav>
+    <button class="nav-toggle" id="navToggle" aria-label="Apri il menù">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<section id="home" class="hero">
+  <div class="hero-media">
+    <img src="https://images.unsplash.com/photo-1498654200943-1088dd4438ae?auto=format&fit=crop&w=1800&q=80" alt="Tavola imbandita con piatti della cucina toscana">
+    <div class="hero-overlay"></div>
+  </div>
+  <div class="container hero-content">
+    <p class="hero-kicker">Dal centro storico di Lucca</p>
+    <h1>Osteria da Rosolo</h1>
+    <p class="hero-tagline">Cucina toscana autentica, porzioni generose e l'accoglienza di una famiglia, in un cortile medievale a due passi da Piazza San Michele.</p>
+    <div class="hero-actions">
+      <a href="#menu" class="btn btn-primary">Scopri il Menù</a>
+      <a href="#dove-siamo" class="btn btn-outline">Come Raggiungerci</a>
+    </div>
+    <div class="hero-badges">
+      <div class="badge"><strong>4.6 / 5</strong><span>su Tripadvisor &amp; Google</span></div>
+      <div class="badge"><strong>Dal 12:00</strong><span>pranzo e cena</span></div>
+      <div class="badge"><strong>Corte Campana</strong><span>nel cuore di Lucca</span></div>
+    </div>
+  </div>
+</section>
+
+<section id="storia" class="section storia">
+  <div class="container split">
+    <div class="split-media">
+      <img src="https://images.unsplash.com/photo-1466978913421-dad2ebd01d17?auto=format&fit=crop&w=1200&q=80" alt="Vicolo storico del centro di Lucca">
+    </div>
+    <div class="split-text">
+      <p class="eyebrow">La Storia</p>
+      <h2>Una famiglia, una cucina, un cortile nascosto</h2>
+      <p>Nascosta in Corte Campana, tra Piazza Napoleone e Piazza San Michele, l'Osteria da Rosolo è uno di quei posti che a Lucca si tramandano sottovoce: un cortile medievale, tavoli semplici e una cucina che non ha bisogno di apparire perché parla da sola.</p>
+      <p>La gestione è familiare — la sala e la cucina si dividono tra marito e moglie, con quella cura artigiana che si sente in ogni piatto: paste tirate come una volta, ragù che cuociono per ore, ricette lucchesi rispettate alla lettera. Niente fronzoli, niente scorciatoie: solo la tavola toscana raccontata con onestà.</p>
+      <p>Non si accettano prenotazioni: chi arriva fa un po' di fila, ma — dicono i clienti — ne vale sempre la pena.</p>
+    </div>
+  </div>
+</section>
+
+<section id="menu" class="section menu-section">
+  <div class="container">
+    <p class="eyebrow center">Il Menù</p>
+    <h2 class="center">I Sapori della Casa</h2>
+    <p class="section-lead center">Una selezione dei piatti più amati. Il menù completo e i prezzi sono confermati in sala e possono variare secondo la stagione e il mercato del giorno.</p>
+
+    <div class="menu-grid">
+      <div class="menu-category">
+        <h3>Antipasti</h3>
+        <ul>
+          <li><span class="dish">Affettati e crostini toscani</span><span class="dots"></span><span class="price">€ 12</span></li>
+          <li><span class="dish">Lardo di Colonnata con pane caldo</span><span class="dots"></span><span class="price">€ 11</span></li>
+          <li><span class="dish">Polpo tiepido con patate</span><span class="dots"></span><span class="price">€ 14</span></li>
+          <li><span class="dish">Trio di formaggi toscani con miele</span><span class="dots"></span><span class="price">€ 12</span></li>
+        </ul>
+      </div>
+
+      <div class="menu-category featured">
+        <span class="ribbon">I più richiesti</span>
+        <h3>Primi Piatti</h3>
+        <ul>
+          <li><span class="dish">Pappardelle al cinghiale</span><span class="dots"></span><span class="price">€ 14</span></li>
+          <li><span class="dish">Tordelli alla lucchese</span><span class="dots"></span><span class="price">€ 13</span></li>
+          <li><span class="dish">Maltagliati al branzino</span><span class="dots"></span><span class="price">€ 15</span></li>
+          <li><span class="dish">Pici al ragù di cinghiale</span><span class="dots"></span><span class="price">€ 14</span></li>
+          <li><span class="dish">Spaghetti alle vongole</span><span class="dots"></span><span class="price">€ 15</span></li>
+        </ul>
+      </div>
+
+      <div class="menu-category">
+        <h3>Secondi Piatti</h3>
+        <ul>
+          <li><span class="dish">Tagliata di manzo</span><span class="dots"></span><span class="price">€ 19</span></li>
+          <li><span class="dish">Filetto al pepe verde</span><span class="dots"></span><span class="price">€ 21</span></li>
+          <li><span class="dish">Baccalà con porri</span><span class="dots"></span><span class="price">€ 16</span></li>
+          <li><span class="dish">Seppie con bietole</span><span class="dots"></span><span class="price">€ 15</span></li>
+        </ul>
+      </div>
+
+      <div class="menu-category">
+        <h3>Dolci &amp; Cantina</h3>
+        <ul>
+          <li><span class="dish">Dolce della casa</span><span class="dots"></span><span class="price">€ 7</span></li>
+          <li><span class="dish">Vin santo e cantucci</span><span class="dots"></span><span class="price">€ 8</span></li>
+          <li><span class="dish">Calice di vino toscano DOC</span><span class="dots"></span><span class="price">€ 6</span></li>
+          <li><span class="dish">Acqua e caffè</span><span class="dots"></span><span class="price">€ 4</span></li>
+        </ul>
+      </div>
+    </div>
+    <p class="menu-note">Prezzo medio a persona: circa € 25–30 · Prezzi indicativi, da confermare con la gestione.</p>
+  </div>
+</section>
+
+<section id="galleria" class="section gallery-section">
+  <div class="container">
+    <p class="eyebrow center">Galleria</p>
+    <h2 class="center">Un Assaggio dell'Atmosfera</h2>
+    <p class="section-lead center">Immagini dimostrative: da sostituire con fotografie reali del locale, dei piatti e del cortile di Corte Campana.</p>
+    <div class="gallery-grid">
+      <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=800&q=80" alt="Pasta fatta in casa">
+      <img src="https://images.unsplash.com/photo-1481833761820-0509d3217039?auto=format&fit=crop&w=800&q=80" alt="Tavola apparecchiata con vino">
+      <img src="https://images.unsplash.com/photo-1424847651672-bf20a4b0982b?auto=format&fit=crop&w=800&q=80" alt="Piatto di pappardelle al ragù">
+      <img src="https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=800&q=80" alt="Cortile e vicolo storico toscano">
+      <img src="https://images.unsplash.com/photo-1595295333158-4742f28fbd85?auto=format&fit=crop&w=800&q=80" alt="Bicchiere di vino rosso toscano">
+      <img src="https://images.unsplash.com/photo-1432139555190-58524dae6a55?auto=format&fit=crop&w=800&q=80" alt="Interno rustico di un'osteria">
+    </div>
+  </div>
+</section>
+
+<section id="recensioni" class="section reviews-section">
+  <div class="container">
+    <p class="eyebrow center">Recensioni</p>
+    <h2 class="center">Quello che Dicono di Noi</h2>
+    <div class="reviews-grid">
+      <div class="review-card">
+        <div class="stars">★★★★★</div>
+        <p>"Le pappardelle al cinghiale sono tra le migliori mangiate in Toscana. Un posto nascosto in un cortile, ma vale ogni minuto di attesa."</p>
+        <span class="reviewer">— dalle recensioni Tripadvisor</span>
+      </div>
+      <div class="review-card">
+        <div class="stars">★★★★★</div>
+        <p>"Gestione familiare, accoglienza calorosa e porzioni abbondanti. I tordelli lucchesi sono fatti come una volta."</p>
+        <span class="reviewer">— dalle recensioni Google</span>
+      </div>
+      <div class="review-card">
+        <div class="stars">★★★★★</div>
+        <p>"Facile da non vedere dalla strada, ma chi lo trova capisce subito perché è uno dei ristoranti più amati del centro di Lucca."</p>
+        <span class="reviewer">— dalle recensioni online</span>
+      </div>
+    </div>
+    <p class="reviews-summary"><strong>4.6 / 5</strong> — oltre 100 recensioni su Tripadvisor, tra i ristoranti più apprezzati del centro storico di Lucca.</p>
+  </div>
+</section>
+
+<section id="dove-siamo" class="section location-section">
+  <div class="container split reverse">
+    <div class="split-text">
+      <p class="eyebrow">Dove Siamo</p>
+      <h2>Corte Campana, nel cuore di Lucca</h2>
+      <ul class="info-list">
+        <li><strong>Indirizzo</strong><span>Corte Campana, 3 — 55100 Lucca (LU), tra Piazza Napoleone e Piazza San Michele</span></li>
+        <li><strong>Telefono</strong><span><a href="tel:+390583312037">+39 0583 312037</a></span></li>
+        <li><strong>Orari</strong><span>Lun–Mer: 12:00–14:00 / 19:00–21:30<br>Ven: 19:00–21:30 · Sab: 12:00–14:15 / 19:00–21:30<br>Dom: 12:00–14:00 / 19:00–21:30<br>Giovedì chiuso</span></li>
+        <li><strong>Prenotazioni</strong><span>Non si accettano prenotazioni — si consiglia di arrivare presto nelle ore di punta.</span></li>
+      </ul>
+      <a class="btn btn-primary" href="https://www.google.com/maps/search/?api=1&query=Osteria+da+Rosolo+Corte+Campana+3+Lucca" target="_blank" rel="noopener">Apri in Google Maps</a>
+    </div>
+    <div class="split-media">
+      <iframe class="map-embed" loading="lazy" allowfullscreen
+        src="https://maps.google.com/maps?q=Corte%20Campana%203%2C%2055100%20Lucca%20LU&t=&z=16&ie=UTF8&iwloc=&output=embed"
+        title="Mappa Osteria da Rosolo, Corte Campana 3, Lucca"></iframe>
+    </div>
+  </div>
+</section>
+
+<section id="contatti" class="section contact-cta">
+  <div class="container">
+    <h2>Vi aspettiamo a Corte Campana</h2>
+    <p>Per gruppi numerosi o informazioni potete chiamarci direttamente. Non serve prenotare: bastano un po' di pazienza e appetito.</p>
+    <div class="cta-actions">
+      <a href="tel:+390583312037" class="btn btn-primary btn-lg">📞 Chiama: 0583 312037</a>
+      <a href="https://www.facebook.com/p/Osteria-Da-Rosolo-100041938584947/" target="_blank" rel="noopener" class="btn btn-outline btn-lg">Seguici su Facebook</a>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <div>
+      <p class="footer-logo">Osteria <span>da Rosolo</span></p>
+      <p>Corte Campana, 3 — 55100 Lucca (LU), Italia</p>
+    </div>
+    <div class="footer-links">
+      <a href="#storia">La Storia</a>
+      <a href="#menu">Menù</a>
+      <a href="#recensioni">Recensioni</a>
+      <a href="#dove-siamo">Dove Siamo</a>
+    </div>
+    <p class="footer-note">© <span id="year"></span> Osteria da Rosolo · Sito dimostrativo realizzato come proposta commerciale</p>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
