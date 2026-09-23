@@ -12,10 +12,10 @@
   --board: #1e2b22;
   --line: rgba(42, 36, 32, 0.16);
   --shadow: 0 24px 48px -28px rgba(30, 25, 20, 0.45);
-  --font-display: "Fraunces", Georgia, serif;
-  --font-body: "Archivo", -apple-system, BlinkMacSystemFont, sans-serif;
-  --font-hand: "Caveat", cursive;
-  --font-mono: "IBM Plex Mono", ui-monospace, monospace;
+  --font-display: "Bodoni Moda", Georgia, serif;
+  --font-body: "Karla", -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-hand: "Permanent Marker", cursive;
+  --font-mono: "Fragment Mono", ui-monospace, monospace;
   --label: var(--oxblood);
   color-scheme: light;
 }
