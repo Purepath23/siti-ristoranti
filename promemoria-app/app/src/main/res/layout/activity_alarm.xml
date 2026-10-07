@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:gravity="center"
+    android:background="#1A237E" android:padding="32dp">
+
+    <TextView
+        android:id="@+id/clock"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:textColor="#C5CAE9" android:textSize="32sp" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:gravity="center" android:textColor="#FFFFFF"
+        android:textSize="40sp" android:textStyle="bold"
+        android:layout_marginTop="24dp" android:layout_marginBottom="48dp" />
+
+    <Button
+        android:id="@+id/btnDone"
+        android:layout_width="match_parent" android:layout_height="72dp"
+        android:text="FATTO" android:textSize="22sp" />
+
+    <TextView
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="Posticipa di (minuti):" android:textColor="#C5CAE9"
+        android:layout_marginTop="40dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="horizontal" android:gravity="center" android:layout_marginTop="8dp">
+        <Button android:id="@+id/s5" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="5" />
+        <Button android:id="@+id/s10" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="10" />
+        <Button android:id="@+id/s30" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="30" />
+        <Button android:id="@+id/s60" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:text="60" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="horizontal" android:gravity="center_vertical" android:layout_marginTop="8dp">
+        <EditText
+            android:id="@+id/custom"
+            android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"
+            android:hint="Altro (min)" android:inputType="number"
+            android:textColor="#FFFFFF" android:textColorHint="#9FA8DA" />
+        <Button
+            android:id="@+id/btnCustom"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="Posticipa" />
+    </LinearLayout>
+</LinearLayout>
